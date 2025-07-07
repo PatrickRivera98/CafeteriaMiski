@@ -1,0 +1,247 @@
+
+
+@font-face {
+    font-family:hiruko ;
+    src: url(FUENTE/hiruko.ttf);
+}
+@font-face {
+    font-family: unageo;
+    src: url(FUENTE/unageo.ttf);
+}
+@font-face {
+    font-family:along ;
+    src: url(FUENTE/along.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+main{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    /* flex padre */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+header{
+    width: 100%;
+    padding: 0 5px 0 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #66451e;
+}
+img{
+    width: 100%;
+    background-color:#664b2a ;
+    
+    
+}
+#logo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15px 0;
+    align-items: center;
+}
+
+#logo img{
+    width: 70px;
+    margin: 5px;
+    vertical-align:middle;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#logo h1{
+    color: white;
+}
+
+#menu1{
+    width: 80%;
+    align-items: center;
+    /* flex padre */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+
+#menu1 a {
+    text-decoration: none;
+    background-color:#c68436;
+    color:white  ;
+    padding: 4px ;
+    margin: 5px 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    /* flex hijo */ 
+    flex-wrap: 1;
+    flex-shrink: 1;
+}
+
+#menu1 a:hover{
+    background-color: white ;
+    color: #66451e;
+}
+
+
+.contenido1{
+    color: #664b2a;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+    font-family: unageo;
+}
+
+.img-izq{
+    width: 40%;
+    border-radius: 0 20px 20px 0;
+    box-shadow: #66451e 5px 5px 10px;
+}
+
+.contenido2{
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    align-items: center;
+    background-color: #c68436;
+    font-family: unageo
+}
+
+.img-der{
+    width: 40%;
+    height: auto;
+    border-radius: 20px 0 0 20px;
+    box-shadow: #664b2a -10px 5px 10px
+}
+
+.contenido3{
+    color: #664b2a;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    align-items: center;
+    font-family: unageo
+}
+h2{
+    font-family: along;
+    font-weight: bold;
+}
+
+.t1{
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.t2{
+    margin-right: 60px;
+}
+
+.t3{
+    margin-left: 50px;
+    margin-right: -10px;
+}
+
+footer{
+    width: 100%;
+    padding: 15px 9px 15px 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #66451e;
+    /* flex padre */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#menu2 {
+    width: 50%;
+    margin: 5px;
+    align-items: center;
+    /* flex padre */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#menu2 a{
+    color: white;
+    background-color: #c68436;
+    text-decoration: none;
+    padding: 1px;
+    margin: 6px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    /* flex hijo */
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#menu2 a:hover{
+     color: #66451e;
+     background-color: white;
+}
+
+#menu2 h5{
+    color: white;
+    font-family: unageo;
+    font-size: 15px;
+    text-align: center;
+}
+
+#menu3 a:hover{
+    color: #66451e;
+    background-color: white;
+}
+
+#menu3 a{
+    color: white;
+    background-color: #c68436;
+    text-decoration: none;
+    padding: 2px;
+    margin: 2px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px; 
+     /* flex hijo */
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#menu3 {
+    width: 30%;
+    align-items: center;
+    /* flex padre */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.d-flex button{
+    color: #66451e;
+    background-color:white;
+    border: none;
+    box-shadow: black 5px 5px 25px;
+}
+

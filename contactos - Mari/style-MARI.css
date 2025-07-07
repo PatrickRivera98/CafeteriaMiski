@@ -1,0 +1,37 @@
+h1{
+    font-size: 40px;
+    text-align: beginning;
+    background-color: white;
+    border: 1px;
+    padding: 10px;
+    
+    padding: 15px;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+}
+*{
+    margin: 0;
+    padding: 0; 
+    text-align: justify;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    background-image: url(../portada-Patrick/imagenes/Logo\ de\ cafetería\ simple\ gris.png);
+    background-size: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.btn-cafe {
+  background: #8b5c2c;
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.btn-cafe:hover {
+  background:#a86f3d;
+}
